@@ -1,0 +1,4 @@
+hashlib
+pyAesCrypt==0.4.3
+PyQt5==5.15.2
+PyAutoGUI==0.9.52
