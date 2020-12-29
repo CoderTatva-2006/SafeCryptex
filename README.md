@@ -16,3 +16,6 @@ __Usage:__
    - Then enter the password 
    - Then Press Decrypt button 
    - Your data has been decrypted.
+
+
+![Image of gui](https://github.com/CoderTatva-2006/SafeCryptex/blob/main/Screenshot%202020-12-29%20143423.png)
