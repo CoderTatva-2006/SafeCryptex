@@ -36,7 +36,7 @@ class MainW (QMainWindow, Ui_Win):
 			c = cryptor(self.file_to_encrypt , self.file_to_save_encrypted , self.Pass.text())
 			val = c.enc()
 			if val == "Encrypted":
-				alert("Decryption Complete!")
+				alert("Eecryption Complete!")
 			elif val == "FileErr":
 				alert("Files chosen are not present on  the system!")
 			else:
@@ -73,10 +73,10 @@ class MainW (QMainWindow, Ui_Win):
 	def visible_d(self):
 		global Decrypt_Hidden
 		if Decrypt_Hidden:
-			self.Pass.setEchoMode(QLineEdit.Normal)
+			self.Pass_D.setEchoMode(QLineEdit.Normal)
 			Decrypt_Hidden = False
 		else:
-			self.Pass.setEchoMode(QLineEdit.Password)
+			self.Pass_D.setEchoMode(QLineEdit.Password)
 			Decrypt_Hidden = True
 		
 	def browse_e_in(self):
